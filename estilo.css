@@ -1,64 +1,82 @@
 * {
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
 }
 
 body {
-  background-color: #FFEDD5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: rgba(255, 237, 213, 0.2);
+  font-family: 'Roboto', sans-serif;
 }
 
+/* HEADER */
 header {
   text-align: center;
-  margin-bottom: 20px;  
+  padding: 32px 0;
 }
 
-span {
+/* span {
   color: #995000;
-}
+} */
 
+header,
 section {
+  margin: 0 auto;
+  max-width: 300px;
   padding: 10px;
 }
 
-h2 {
+header h1 {
+  margin-bottom: 4px;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+header p {
+  color: rgba(0,0,0,0.7)
+}
+
+/* SECTION */
+
+section {
+  margin-bottom: 24px;
+}
+
+section h2 {
   background-color: #FED7AA;
-  padding: 5px;
+  padding: 8px 16px;
   text-align: center;
-  margin: px;
+  margin-bottom: 24px;
 }
 
-h3 {
-    padding-bottom: 7px;
-    font-size: 20px;
-}
-
-ul {
-    list-style: none;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-  
-li {
+/* LISTA */
+ul li {
     display: flex;
-    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
-.details {
-  width: 40vh;
+li .details {
+  max-width: 240px;
+}
+
+.details h3 {
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+
+/* FONTS */
+h1, h2, h3, .preco {
+  font-family: 'Roboto Serif', serif;
+  color: #2D2C2A;
 }
 
 .description {
   font-size: 14px;
-  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgba(0,0,0,0.8);
   line-height: 21px;
-  width: 80%;
 }
 
 .preco {
     font-weight: 700;
-    font-size: 18px;
 }
