@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: linear-gradient(#ff634766, rgb(212, 155, 23,0.4));
+  background-image: linear-gradient(rgba(41, 194, 54, 0.38), rgba(212, 23, 23, 0.3));
   font-family: 'Roboto', sans-serif;
 }
 
