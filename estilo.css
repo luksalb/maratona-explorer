@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgba(255, 237, 213, 0.2);
+  background-image: linear-gradient(#ff634766, rgb(212, 155, 23,0.4));
   font-family: 'Roboto', sans-serif;
 }
 
@@ -42,7 +42,8 @@ section {
 }
 
 section h2 {
-  background-color: #FED7AA;
+  background-color: #000;
+  border-radius: 7px;
   padding: 8px 16px;
   text-align: center;
   margin-bottom: 24px;
@@ -66,11 +67,15 @@ li .details {
 
 
 /* FONTS */
-h1, h2, h3, .preco {
+h1, h3, .preco {
   font-family: 'Roboto Serif', serif;
-  color: #2D2C2A;
+  color: #000;
 }
 
+h2 {
+  font-family: 'Roboto Serif', serif;
+  color: #fff;
+}
 .description {
   font-size: 14px;
   color: rgba(0,0,0,0.8);
